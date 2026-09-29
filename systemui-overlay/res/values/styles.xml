@@ -1,0 +1,30 @@
+<resources>
+ <style name="Theme.SystemUI.QuickSettings" parent="@android:style/Theme.Material.Light">
+  <item name="android:windowIsFloating">true</item>
+  <item name="android:colorAccent">#83BBEE</item>
+  <item name="android:colorControlActivated">#83BBEE</item>
+  <item name="android:textColorPrimary">#203C58</item>
+  <item name="android:textColorPrimaryInverse">#203C58</item><item name="android:textColorSecondaryInverse">#496B8C</item><item name="android:textColorSecondary">#56728F</item>
+  <item name="android:textColorTertiary">#7089A4</item>
+  <item name="android:colorBackground">#E8F2FD</item>
+  <item name="*com.android.systemui:offStateColor">#F4F9FF</item>
+  <item name="*com.android.systemui:underSurfaceColor">#DCEBFA</item>
+  <item name="*com.android.systemui:lightIconTheme">@*com.android.systemui:style/QSIconTheme</item>
+  <item name="*com.android.systemui:darkIconTheme">@*com.android.systemui:style/QSIconTheme</item>
+ </style>
+<style name="Theme.SystemUI.QuickSettings.Header" parent="@android:style/Theme.Material.Light">
+  <item name="android:windowIsFloating">true</item>
+  <item name="android:colorAccent">#83BBEE</item>
+  <item name="android:colorControlActivated">#83BBEE</item>
+  <item name="android:textColorPrimary">#203C58</item>
+  <item name="android:textColorPrimaryInverse">#203C58</item><item name="android:textColorSecondaryInverse">#496B8C</item><item name="android:textColorSecondary">#56728F</item>
+  <item name="android:textColorTertiary">#7089A4</item>
+  <item name="android:colorBackground">#E8F2FD</item>
+  <item name="*com.android.systemui:offStateColor">#F4F9FF</item>
+  <item name="*com.android.systemui:underSurfaceColor">#DCEBFA</item>
+  <item name="*com.android.systemui:lightIconTheme">@*com.android.systemui:style/QSIconTheme</item>
+  <item name="*com.android.systemui:darkIconTheme">@*com.android.systemui:style/QSIconTheme</item>
+ </style>
+</resources>
+
+

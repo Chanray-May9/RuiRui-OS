@@ -1,0 +1,13 @@
+<resources>
+ <dimen name="qs_corner_radius">24dp</dimen>
+ <dimen name="qs_tile_height">78dp</dimen>
+ <dimen name="qs_tile_margin_horizontal">12dp</dimen>
+ <dimen name="qs_tile_margin_vertical">12dp</dimen>
+ <dimen name="notification_corner_radius">24dp</dimen>
+ <dimen name="notification_corner_radius_small">18dp</dimen>
+ <color name="material_dynamic_neutral0">#E8F2FD</color>
+ <color name="material_dynamic_neutral10">#E8F2FD</color>
+ <color name="material_dynamic_neutral20">#344D68</color>
+<dimen name="notification_scrim_corner_radius">0dp</dimen></resources>
+
+

@@ -1,0 +1,30 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.ruirui.os" android:versionCode="12" android:versionName="1.0-alpha12">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="28" />
+    <queries><intent><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent></queries>
+    <uses-permission android:name="android.permission.INTERNET" /><uses-permission android:name="android.permission.FOREGROUND_SERVICE" /><uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <application android:label="锐锐 OS" android:theme="@android:style/Theme.Material.Light.NoActionBar" android:usesCleartextTraffic="true">
+        <activity android:name=".SettingsActivity" android:exported="false" />
+        <activity android:name=".SystemSettingsActivity" android:exported="false" />
+        <activity android:name=".AssistantActivity" android:exported="false" />
+        <service android:name=".AiActivityService" android:exported="false" android:stopWithTask="false" />
+        <service android:name=".RuiVoiceInteractionService" android:label="锐锐" android:permission="android.permission.BIND_VOICE_INTERACTION" android:exported="true"><intent-filter><action android:name="android.service.voice.VoiceInteractionService" /></intent-filter><meta-data android:name="android.voice_interaction" android:resource="@xml/voice_interaction" /></service>
+        <service android:name=".RuiVoiceSessionService" android:permission="android.permission.BIND_VOICE_INTERACTION" android:exported="true" />
+        <activity android:name=".TerminalActivity" android:exported="false" />
+        <activity android:name=".ChatActivity" android:exported="false" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".HistoryActivity" android:exported="false" />
+        <activity android:name=".AppDrawerActivity" android:exported="false" />
+        <activity android:name=".HomeActivity" android:exported="true" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
+
+
+

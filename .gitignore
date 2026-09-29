@@ -1,0 +1,16 @@
+.build/
+work/
+*.apk
+*.idsig
+*.zip
+*.keystore
+*.jks
+*.log
+*.jsonl
+.env
+.env.*
+local.properties
+ai-provider.xml
+ruirui-chat-history.json
+avd/
+system-images/
